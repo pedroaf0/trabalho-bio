@@ -29,3 +29,22 @@ function navanim() {
 
     }, 7)
 }   
+
+                // Questões
+
+
+function ques1(){
+    if(document.getElementById("1r4").checked){
+        Swal.fire({
+            icon: 'success',
+            title: 'Obaa',
+            text: 'Você acertou!',
+          })
+    } else {
+        Swal.fire({
+            icon: 'error',
+            title: 'Eita!',
+            text: 'Resposta incorreta',
+          })
+    }
+}
