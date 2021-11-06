@@ -1,34 +1,37 @@
 #formas{
-    /* z-index: 6; */
-    /* left: 0%; */
     position: absolute;
     bottom: 0%;
     height: 100px;
     filter: invert(61%) sepia(96%) saturate(1414%) hue-rotate(116deg) brightness(94%) contrast(98%);
 }
 .f1{
+    z-index: -1;
     position: relative;
     top: 10vh;
     left: 10vw;
 }
 .f2{
+    z-index: -1;
     position: relative;
     top: 20vh;
     right: 10vw;
 }
 .f3{
+    z-index: -1;
     position: absolute;
     top: 80vh;
     left: -4vw;
 }
 
 .f4{
+    z-index: -1;
     position: absolute;
     top: 70vh;
     right: 5vw;
 }
 
 .f5{
+    z-index: -1;
     position: absolute;
     transform: rotate(7deg);
     top: -6vh;
@@ -37,18 +40,21 @@
 
 .f6{
     z-index: -1;
+    z-index: -1;
     position: absolute;
     top: 60vh;
     left: 7vw;
     transform: rotate(18deg);
 }
 .f7{
+    z-index: -1;
     position: absolute;
     top: 70vh;
     right: 5vw;
 }
 
 .f8{
+    z-index: -1;
     position: absolute;
     transform: rotate(7deg);
     top: 90vh;
@@ -56,34 +62,40 @@
 }
 
 .f9{
+    z-index: -1;
     position: absolute;
     top: 120vh;
     left: 7vw;
     transform: rotate(18deg);
 }
 .f10{
+    z-index: -1;
     position: relative;
     top: 140vh;
     left: 10vw;
 }
 .f11{
+    z-index: -1;
     position: relative;
     top: 160vh;
     right: 10vw;
 }
 .f12{
+    z-index: -1;
     position: absolute;
     top: 180vh;
     left: -5vw;
 }   
 
 .f13{
+    z-index: -1;
     position: absolute;
     top: 200vh;
     right: 5vw;
 }
 
 .f14{
+    z-index: -1;
     position: absolute;
     transform: rotate(7deg);
     top: 220vh;
@@ -91,18 +103,21 @@
 }
 
 .f15{
+    z-index: -1;
     position: absolute;
     top: 240vh;
     left: 7vw;
     transform: rotate(18deg);
 }
 .f16{
+    z-index: -1;
     position: absolute;
     top: 260vh;
     right: 5vw;
 }
 
 .f17{
+    z-index: -1;
     position: absolute;
     transform: rotate(7deg);
     top: 280vh;
@@ -110,34 +125,40 @@
 }
 
 .f18{
+    z-index: -1;
     position: absolute;
     top: 300vh;
     right: 7vw;
     transform: rotate(18deg);
 }
 .f19{
+    z-index: -1;
     position: relative;
     top: 320vh;
     left: 10vw;
 }
 .f20{
+    z-index: -1;
     position: relative;
     top: 340vh;
     right: 10vw;
 }
 .f21{
+    z-index: -1;
     position: absolute;
     top: 360vh;
     left: -4vw;
 }
 
 .f22{
+    z-index: -1;
     position: absolute;
     top: 380vh;
     right: 5vw;
 }
 
 .f23{
+    z-index: -1;
     position: absolute;
     transform: rotate(7deg);
     top: 400vh;
@@ -145,18 +166,21 @@
 }
 
 .f24{
+    z-index: -1;
     position: absolute;
     top: 420vh;
     left: 7vw;
     transform: rotate(18deg);
 }
 .f25{
+    z-index: -1;
     position: absolute;
     top: 440vh;
     right: 5vw;
 }
 
 .f26{
+    z-index: -1;
     position: absolute;
     transform: rotate(7deg);
     top: 460vh;
@@ -164,34 +188,40 @@
 }
 
 .f27{
+    z-index: -1;
     position: absolute;
     top: 480vh;
     left: 7vw;
     transform: rotate(18deg);
 }
 .f28{
+    z-index: -1;
     position: relative;
     top: 500vh;
     left: 10vw;
 }
 .f29{
+    z-index: -1;
     position: relative;
     top: 520vh;
     right: 10vw;
 }
 .f30{
+    z-index: -1;
     position: absolute;
     top: 540vh;
     left: -5vw;
 }   
 
 .f31{
+    z-index: -1;
     position: absolute;
     top: 560vh;
     right: 5vw;
 }
 
 .f32{
+    z-index: -1;
     position: absolute;
     transform: rotate(7deg);
     top: 580vh;
@@ -199,18 +229,21 @@
 }
 
 .f33{
+    z-index: -1;
     position: absolute;
     top: 600vh;
     left: 7vw;
     transform: rotate(18deg);
 }
 .f34{
+    z-index: -1;
     position: absolute;
     top: 620vh;
     right: 5vw;
 }
 
 .f35{
+    z-index: -1;
     position: absolute;
     transform: rotate(7deg);
     top: 640vh;
@@ -218,34 +251,40 @@
 }
 
 .f36{
+    z-index: -1;
     position: absolute;
     top: 700vh;
     right: 7vw;
     transform: rotate(18deg);
 }
 .f37{
+    z-index: -1;
     position: relative;
     top: 720vh;
     left: 10vw;
 }
 .f38{
+    z-index: -1;
     position: relative;
     top: 740vh;
     right: 10vw;
 }
 .f39{
+    z-index: -1;
     position: absolute;
     top: 760vh;
     left: -4vw;
 }
 
 .f40{
+    z-index: -1;
     position: absolute;
     top: 780vh;
     right: 5vw;
 }
 
 .f41{
+    z-index: -1;
     position: absolute;
     transform: rotate(7deg);
     top: 800vh;
@@ -253,18 +292,21 @@
 }
 
 .f42{
+    z-index: -1;
     position: absolute;
     top: 820vh;
     left: 7vw;
     transform: rotate(18deg);
 }
 .f43{
+    z-index: -1;
     position: absolute;
     top: 840vh;
     right: 5vw;
 }
 
 .f44{
+    z-index: -1;
     position: absolute;
     transform: rotate(7deg);
     top: 860vh;
@@ -272,6 +314,7 @@
 }
 
 .f45{
+    z-index: -1;
     position: absolute;
     top: 880vh;
     left: 7vw;
