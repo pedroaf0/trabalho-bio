@@ -166,14 +166,14 @@ p {
 }
   
 .active, .accordion:hover {
-    background-color: rgb(255, 255, 255); 
-    color: black;
+    background-color: #03d49dff;
+    color: rgb(255, 255, 255);
 }
   
 .panel {
     padding: 0 18px;
     display: none;
-    background-color: rgb(41, 41, 41);
+    background-color: #121212;;
     overflow: hidden;
 }
 li a {
