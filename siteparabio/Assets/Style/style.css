@@ -13,6 +13,10 @@ a{
     color: #121212;
     text-decoration: none;
 }
+audio::-webkit-media-controls-panel{
+    background-color: #03d49dff;
+    
+}
 a>img{
     
     padding: 0%;
@@ -21,6 +25,7 @@ a>img{
     width: 50%;
 }
 body{
+    overflow-x: hidden;
     background-color: #121212;
     scroll-behavior: smooth;
 }
@@ -66,7 +71,7 @@ main{
     left: 20%;
     position: absolute;
     width: 50vw;
-    height: 100vh;
+    height: auto;
 }
 aside{
     color: white;
@@ -109,15 +114,15 @@ p {
 .container {
     position: relative;
     width: 60%;
-  }
+}
   
-  .image {
+.image {
     display: block;
     width: 100%;
     height: auto;
-  }
+}
   
-  .overlay {
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -128,13 +133,13 @@ p {
     opacity: 0;
     transition: .5s ease;
     background-color: #0000008f;
-  }
+}
   
-  .container:hover .overlay {
+.container:hover .overlay {
     opacity: 1;
-  }
+}
   
-  .text {
+.text {
       width: 100%;
     color: white;
     font-size: 15px;
@@ -146,8 +151,8 @@ p {
     transform: translate(-50%, -50%);
     text-align: left;
     
-  }
-  .accordion {
+}
+.accordion {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     cursor: pointer;
@@ -158,22 +163,83 @@ p {
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-  }
+}
   
-  .active, .accordion:hover {
+.active, .accordion:hover {
     background-color: rgb(255, 255, 255); 
     color: black;
-  }
+}
   
-  .panel {
+.panel {
     padding: 0 18px;
     display: none;
     background-color: rgb(41, 41, 41);
     overflow: hidden;
-  }
-  li a {
+}
+li a {
       text-decoration: none;
       color: white;
       text-align: left;
       display: block;
-  }
+}
+li{
+    cursor: pointer;
+}
+li:hover> a{
+    color:#03d49dff ;
+}
+
+#grupor{
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 80vw;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+#breno,#pedro,#rafa{
+    
+    height: 80%;
+    width: 25%;
+   
+}
+#blur{
+   
+    z-index: 2;
+    top: 33%;
+    height: 3%;
+    width: 100%;
+    position: absolute;
+    backdrop-filter: blur(3px);
+}
+#esconde{
+    z-index: 3;
+    
+    top: 0% ;
+    left: 25%;
+    background-color: #121212;
+    height: 80%;
+    width: 2%;
+}
+#breno img,#pedro img, #rafa img{
+    border-top-left-radius: 70px;
+    z-index: 3;
+    width: 100%;
+    top: 0%;
+}
+#breno img{
+    filter:brightness(1.4) ;
+}
+#over{
+    overflow: hidden;
+}
+#textin{
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    top: 35%;
+    width: 25%;
+    background-color: #03d49dff;
+    border-bottom-right-radius: 70px;
+}
