@@ -220,13 +220,7 @@
     right: 5vw;
 }
 
-.f32{
-    z-index: -1;
-    position: absolute;
-    transform: rotate(7deg);
-    top: 580vh;
-    left: 50vw;
-}
+
 
 .f33{
     z-index: -1;
@@ -319,4 +313,177 @@
     top: 880vh;
     left: 7vw;
     transform: rotate(18deg);
+}
+.f46{
+    z-index: -1;
+    position: absolute;
+    transform: rotate(7deg);
+    top: 900vh;
+    right: -3vw;
+}
+
+.f47{
+    z-index: -1;
+    position: absolute;
+    top: 920vh;
+    left: 7vw;
+    transform: rotate(18deg);
+}
+.f48{
+    z-index: -1;
+    position: relative;
+    top: 940vh;
+    left: 10vw;
+}
+.f49{
+    z-index: -1;
+    position: relative;
+    top: 960vh;
+    right: 10vw;
+}
+.f50{
+    z-index: -1;
+    position: absolute;
+    top: 980vh;
+    left: -5vw;
+}   
+
+.f51{
+    z-index: -1;
+    position: absolute;
+    top: 1000vh;
+    right: 5vw;
+}
+
+.f52{
+    z-index: -1;
+    position: absolute;
+    transform: rotate(7deg);
+    top: 1020vh;
+    left: 50vw;
+}
+
+.f53{
+    z-index: -1;
+    position: absolute;
+    top: 1040vh;
+    left: 7vw;
+    transform: rotate(18deg);
+}
+.f54{
+    z-index: -1;
+    position: absolute;
+    top: 1060vh;
+    right: 5vw;
+}
+
+.f55{
+    z-index: -1;
+    position: absolute;
+    transform: rotate(7deg);
+    top: 1080vh;
+    left: 10vw;
+}
+
+.f56{
+    z-index: -1;
+    position: absolute;
+    top: 1100vh;
+    right: 7vw;
+    transform: rotate(18deg);
+}
+.f57{
+    z-index: -1;
+    position: relative;
+    top: 1120vh;
+    left: 10vw;
+}
+.f58{
+    z-index: -1;
+    position: relative;
+    top: 1140vh;
+    right: 10vw;
+}
+.f59{
+    z-index: -1;
+    position: absolute;
+    top: 1160vh;
+    left: -4vw;
+}
+
+.f60{
+    z-index: -1;
+    position: absolute;
+    top: 1180vh;
+    right: 5vw;
+}
+
+.f61{
+    z-index: -1;
+    position: absolute;
+    transform: rotate(7deg);
+    top: 1200vh;
+    left: 50vw;
+}
+
+.f62{
+    z-index: -1;
+    position: absolute;
+    top: 1220vh;
+    left: 7vw;
+    transform: rotate(18deg);
+}
+.f63{
+    z-index: -1;
+    position: absolute;
+    top: 1240vh;
+    left: 7vw;
+    transform: rotate(18deg);
+}
+.f64{
+    z-index: -1;
+    position: absolute;
+    top: 1260vh;
+    right: 5vw;
+}
+
+.f65{
+    z-index: -1;
+    position: absolute;
+    transform: rotate(7deg);
+    top: 1280vh;
+    left: 10vw;
+}
+
+.f66{
+    z-index: -1;
+    position: absolute;
+    top: 1300vh;
+    right: 7vw;
+    transform: rotate(18deg);
+}
+.f67{
+    z-index: -1;
+    position: relative;
+    top: 1320vh;
+    left: 10vw;
+}
+.f68{
+    z-index: -1;
+    position: relative;
+    top: 1340vh;
+    right: 10vw;
+}
+.f69{
+    z-index: -1;
+    position: absolute;
+    top: 1360vh;
+    left: -4vw;
+}
+
+.f70{
+    z-index: -1;
+    position: absolute;
+    top: 1380vh;
+    right: 5vw;
 }

@@ -18,7 +18,7 @@ function navanim() {
             oc = true
         } else if (oc == false) {
             tam++
-            rot = rot + 2.045
+            rot = rot + 2
             elem.style.height = tam + 'vh'
             img.style.transform = "rotate" + "(" + rot + "deg" + ")"
         }}
@@ -29,7 +29,7 @@ function navanim() {
         } else if (oc == true) {
             hide.style.display = "none"
             tam--
-            rot = rot - 2.045
+            rot = rot - 2
             elem.style.height = tam + 'vh'
             img.style.transform = "rotate" + "(" + rot + "deg" + ")"
             

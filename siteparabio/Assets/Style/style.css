@@ -1,5 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 *{
-    font-family: sans-serif;
+    font-family: 'Merriweather Sans';
     margin: 0%;
     padding: 0%;
     color: white;
@@ -67,6 +69,7 @@ nav{
     font-size: 5vh;
 }
 main{
+    font-size: 14pt;
     top: 2cm;
     left: 20%;
     position: absolute;
@@ -185,7 +188,7 @@ li a {
 li{
     cursor: pointer;
 }
-li:hover> a{
+li:hover > span,li:hover>a{
     color:#03d49dff ;
 }
 
@@ -199,7 +202,6 @@ li:hover> a{
     transform: translate(-50%,-50%);
 }
 #breno,#pedro,#rafa{
-    
     height: 80%;
     width: 25%;
    
@@ -215,12 +217,12 @@ li:hover> a{
 }
 #esconde{
     z-index: 3;
-    
+    margin: -1px;
     top: 0% ;
     left: 25%;
     background-color: #121212;
     height: 80%;
-    width: 2%;
+    width: 4%;
 }
 #breno img,#pedro img, #rafa img{
     border-top-left-radius: 70px;
@@ -235,6 +237,11 @@ li:hover> a{
     overflow: hidden;
 }
 #textin{
+    font-size: 14pt;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
     z-index: 1;
     height: 50%;
@@ -243,3 +250,59 @@ li:hover> a{
     background-color: #03d49dff;
     border-bottom-right-radius: 70px;
 }
+#textin h2{
+    margin-top: 20px;
+    font-size: x-large;
+    color: #121212;
+}
+#btt button{
+    margin-block: 20px;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #121212;
+    width: 150px;
+    background-color: #03d49dff;
+    border: none;
+}
+
+        /* scroll */
+
+body::-webkit-scrollbar{
+    background: linear-gradient(#03d49dff,#121212,#121212,#121212,#121212,#121212,#03d49dff);
+    height: auto;
+    width: 30px;
+}
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom ,transparent,#03d49dff,#03d49dff,transparent);
+    border: none
+}
+::-webkit-scrollbar-button:single-button {
+   
+    display: block;
+    border-style: solid;
+    height: 27px;
+    width: 16px;
+  }
+  /* Up */
+  ::-webkit-scrollbar-button:single-button:vertical:decrement {
+   
+    background-image: url(../Img/caret-up-fill.svg);
+    background-size: 27px;
+    border: none;
+   
+  }
+  
+  ::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+    background-color: turquoise;
+  }
+  /* Down */
+  ::-webkit-scrollbar-button:single-button:vertical:increment {
+    background-image: url(../Img/caret-down-fill.svg);
+    background-size: 27px;
+   
+    border: none;
+  }
+  
+  ::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+    background-color: turquoise;
+  }
